@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-    class Program
+
+    class Timer
     {
+        
+
         static void Main(string[] args)
         {
+            Timernew timer = new Timernew();
+            timer.Sec = Console.ReadLine();
+            Console.WriteLine(timer.Sec);
         }
     }
 }
